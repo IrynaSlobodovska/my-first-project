@@ -52,7 +52,6 @@ button {
 
 .container {
   max-width: 320px;
-  padding: 0 80px;
   margin: 0 auto;
 }
 
@@ -395,4 +394,20 @@ button {
     justify-content: flex-end;
     flex-shrink: 0;
   }
+}
+
+/* page-speed */
+
+.speed-link-box {
+  background-color: #fde7da;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speed-icon {
+  width: 32px;
+  height: 32px;
 }
