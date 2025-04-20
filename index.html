@@ -192,11 +192,12 @@
           </svg>
         </div>
       </section>
-      <section class="">
-        <div>
-          <ul>
-            <li>
-              <div>
+      <section class="page-landing">
+        <div class="container landing-container">
+          <h1 class="lading-title">Landing pages</h1>
+          <ul class="landing-list">
+            <li class="landing-link">
+              <div class="landing-box">
                 <picture>
                   <source
                     srcset="./img/deck.jpg 1x, ./img/deck-2x.jpg 2x"
@@ -204,15 +205,18 @@
                   <source
                     srcset="./img/Frame1.jpg 1x, ./img/Frame1-2x.jpg 2x"
                     media="(min-width:320px)" />
-                  <img src="./img/deck.jpg" alt=""
+                  <img
+                    src="./img/deck.jpg"
+                    alt="Landing one"
+                    class="landing-ing"
                 /></picture>
               </div>
-              <div>
-                <h3>Landing one</h3>
+              <div class="landing-subbox">
+                <h3 class="lading-subtitle">Landing one</h3>
               </div>
             </li>
-            <li>
-              <div>
+            <li class="landing-link">
+              <div class="landing-box">
                 <picture>
                   <source
                     srcset="./img/deck1.jpg 1x, ./img/deck1-2x.jpg 2x"
@@ -220,15 +224,18 @@
                   <source
                     srcset="./img/Frame2.jpg 1x, ./img/Frame2-2x.jpg 2x"
                     media="(min-width:320px)" />
-                  <img src="./img/deck1.jpg" alt=""
+                  <img
+                    src="./img/deck1.jpg"
+                    alt="Landing two"
+                    class="landing-ing"
                 /></picture>
               </div>
-              <div>
-                <h3>Landing two</h3>
+              <div class="landing-subbox">
+                <h3 class="lading-subtitle">Landing two</h3>
               </div>
             </li>
-            <li>
-              <div>
+            <li class="landing-link">
+              <div class="landing-box">
                 <picture>
                   <source
                     srcset="./img/deck2.jpg 1x, ./img/deck2-2x.jpg 2x"
@@ -236,15 +243,18 @@
                   <source
                     srcset="./img/Frame3.jpg 1x, ./img/Frame3-2x.jpg 2x"
                     media="(min-width:320px)" />
-                  <img src="./img/deck2.jpg" alt=""
+                  <img
+                    src="./img/deck2.jpg"
+                    alt="Landing three"
+                    class="landing-ing"
                 /></picture>
               </div>
-              <div>
-                <h3>Landing three</h3>
+              <div class="landing-subbox">
+                <h3 class="lading-subtitle">Landing three</h3>
               </div>
             </li>
-            <li>
-              <div>
+            <li class="landing-link">
+              <div class="landing-box">
                 <picture>
                   <source
                     srcset="./img/deck3.jpg 1x, ./img/deck3-2x.jpg 2x"
@@ -252,64 +262,77 @@
                   <source
                     srcset="./img/Frame4.jpg 1x, ./img/Frame4-2x.jpg 2x"
                     media="(min-width:320px)" />
-                  <img src="./img/deck3.jpg" alt=""
+                  <img
+                    src="./img/deck3.jpg"
+                    alt="Landing four"
+                    class="landing-ing"
                 /></picture>
               </div>
-              <div>
-                <h3>Landing four</h3>
+              <div class="landing-subbox">
+                <h3 class="lading-subtitle">Landing four</h3>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <!-- <footer class="">
-      <div>
+    <footer class="page-footer">
+      <div class="container">
         <div>
-          <svg class=""><use href="./img/icons.svg#icon-logo"></use></svg>
+          <svg class="foorer-logo">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
           <button type="button" class="footer-btn">Get on Webflow</button>
         </div>
         <div>
-          <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="">Showcase</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Landing one</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Sign up</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Other templates</a>
+            </li>
           </ul>
-          <ul>
-            <li>
-              <a href="">
-                <svg>
-                  <use></use>
+          <ul class="footer-list-conto">
+            <li class="footer-item-conto">
+              <a href="" class="footer-conto">
+                <svg class="footer-icon" width="14" height="14">
+                  <use href="./img/icons.svg#icon-insta"></use>
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="">
-                <svg>
-                  <use></use>
+            <li class="footer-item-conto">
+              <a href="" class="footer-conto">
+                <svg class="footer-icon" width="16" height="13">
+                  <use href="./img/icons.svg#icon-tw"></use>
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="">
-                <svg>
-                  <use></use>
+            <li class="footer-item-conto">
+              <a href="" class="footer-conto">
+                <svg class="footer-icon" width="9" height="16">
+                  <use href="./img/icons.svg#icon-f"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <p></p>
-          <svg>
-            <use></use>
-            <a href=""></a>
+          <p class="footer-text">Powered by</p>
+          <svg class="footer-webflow" width="89" height="23">
+            <use href="./img/icons.svg#icon-webflow"></use>
           </svg>
-          <p></p>
-          <p></p>
+          <p class="footer-texts">Designed by</p>
+          <p class="footer-tekst">Veljko</p>
+          <a href="" class="footer-contact">Contact</a>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
