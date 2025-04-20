@@ -389,10 +389,10 @@ button {
   }
 
   .page-main-contai {
-    /* max-width: 417px; */
-    /* flex-shrink: 0;
-    justify-content: flex-end;
+    height: 732px;
     display: flex;
-    align-self: flex-end; */
+    align-self: flex-end;
+    justify-content: flex-end;
+    flex-shrink: 0;
   }
 }
