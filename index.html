@@ -134,10 +134,12 @@
                   class="speed-icon"
                 />
               </div>
-              <h3 class="speed-title">Speed</h3>
-              <p class="speed-text">
-                Open a commercial-grade current account from anywhere
-              </p>
+              <div class="speed-subbox">
+                <h3 class="speed-title">Speed</h3>
+                <p class="speed-text">
+                  Open a commercial-grade current account from anywhere
+                </p>
+              </div>
             </li>
             <li class="speed-link">
               <div class="speed-link-box">
@@ -148,10 +150,12 @@
                   class="speed-icon"
                 />
               </div>
-              <h3 class="speed-title">Design</h3>
-              <p class="speed-text">
-                Open a commercial-grade current account from anywhere
-              </p>
+              <div class="speed-subbox">
+                <h3 class="speed-title">Design</h3>
+                <p class="speed-text">
+                  Open a commercial-grade current account from anywhere
+                </p>
+              </div>
             </li>
             <li class="speed-link">
               <div class="speed-link-box">
@@ -162,25 +166,30 @@
                   class="speed-icon"
                 />
               </div>
-              <h3 class="speed-title">Modularity</h3>
-              <p class="speed-text">
-                Open a commercial-grade current account from anywhere
-              </p>
+              <div class="speed-subbox">
+                <h3 class="speed-title">Modularity</h3>
+                <p class="speed-text">
+                  Open a commercial-grade current account from anywhere
+                </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="page-druk">
-        <div>
-          <svg class="">
+        <div class="container drunk-container">
+          <svg class="drunk-icon">
             <use href="./img/icons.svg#icon-druk"></use>
           </svg>
-          <h2>
+          <h2 class="drunk-title">
             “Join a community of industry leading professionals. Join a
             community of industry leading professionals.“
           </h2>
-          <p>Laura Paula</p>
-          <p>Director @Company</p>
+          <p class="drunk-text">Laura Paula</p>
+          <p class="drunk-texts">Director @Company</p>
+          <svg class="drunk-icons">
+            <use href="./img/icons.svg#icon-kub"></use>
+          </svg>
         </div>
       </section>
       <section class="">
@@ -188,11 +197,15 @@
           <ul>
             <li>
               <div>
-                <img
-                  srcset="./img/Frame1.jpg 1x, ./img/Frame1-2x.jpg 2x"
-                  src="./img/Frame1.jpg"
-                  alt=""
-                />
+                <picture>
+                  <source
+                    srcset="./img/deck.jpg 1x, ./img/deck-2x.jpg 2x"
+                    media="(min-width:1020px)" />
+                  <source
+                    srcset="./img/Frame1.jpg 1x, ./img/Frame1-2x.jpg 2x"
+                    media="(min-width:320px)" />
+                  <img src="./img/deck.jpg" alt=""
+                /></picture>
               </div>
               <div>
                 <h3>Landing one</h3>
@@ -200,11 +213,15 @@
             </li>
             <li>
               <div>
-                <img
-                  srcset="./img/Frame2.jpg 1x, ./img/Frame2-2x.jpg 2x"
-                  src="./img/Frame2.jpg"
-                  alt=""
-                />
+                <picture>
+                  <source
+                    srcset="./img/deck1.jpg 1x, ./img/deck1-2x.jpg 2x"
+                    media="(min-width:1020px)" />
+                  <source
+                    srcset="./img/Frame2.jpg 1x, ./img/Frame2-2x.jpg 2x"
+                    media="(min-width:320px)" />
+                  <img src="./img/deck1.jpg" alt=""
+                /></picture>
               </div>
               <div>
                 <h3>Landing two</h3>
@@ -212,11 +229,15 @@
             </li>
             <li>
               <div>
-                <img
-                  srcset="./img/Frame3.jpg 1x, ./img/Frame3-2x.jpg 2x"
-                  src="./img/Frame3.jpg"
-                  alt=""
-                />
+                <picture>
+                  <source
+                    srcset="./img/deck2.jpg 1x, ./img/deck2-2x.jpg 2x"
+                    media="(min-width:1020px)" />
+                  <source
+                    srcset="./img/Frame3.jpg 1x, ./img/Frame3-2x.jpg 2x"
+                    media="(min-width:320px)" />
+                  <img src="./img/deck2.jpg" alt=""
+                /></picture>
               </div>
               <div>
                 <h3>Landing three</h3>
@@ -224,11 +245,15 @@
             </li>
             <li>
               <div>
-                <img
-                  srcset="./img/Frame4.jpg 1x, ./img/Frame4-2x.jpg 2x"
-                  src="./img/Frame4.jpg"
-                  alt=""
-                />
+                <picture>
+                  <source
+                    srcset="./img/deck3.jpg 1x, ./img/deck3-2x.jpg 2x"
+                    media="(min-width:1020px)" />
+                  <source
+                    srcset="./img/Frame4.jpg 1x, ./img/Frame4-2x.jpg 2x"
+                    media="(min-width:320px)" />
+                  <img src="./img/deck3.jpg" alt=""
+                /></picture>
               </div>
               <div>
                 <h3>Landing four</h3>
@@ -238,7 +263,7 @@
         </div>
       </section>
     </main>
-    <footer class="">
+    <!-- <footer class="">
       <div>
         <div>
           <svg class=""><use href="./img/icons.svg#icon-logo"></use></svg>
@@ -285,6 +310,6 @@
           <p></p>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

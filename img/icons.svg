@@ -55,5 +55,9 @@
 <path d="M0 14.545h58.182v2.909h-58.182v-2.909z"></path>
 <path d="M0 29.091h58.182v2.909h-58.182v-2.909z"></path>
 </symbol>
+<symbol id="icon-kub" viewBox="0 0 76 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0h32v32h-32v-32z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.4" d="M44 0h32v32h-32v-32z"></path>
+</symbol>
 </defs>
 </svg>
